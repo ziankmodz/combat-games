@@ -1,58 +1,3 @@
--- if you steal this script then go hell!!
-
-        local Library =
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-        local Window = Library.CreateLib("NOTHING SCRIPT hub V1.0", "Serpent")
-        -- MAIN
-        local Main = Window:NewTab("Main")
-        local MainSection = Main:NewSection("Main")
-
-MainSection:NewButton("Silent Aim", "Hitbox changer", function()
-local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
-	CoreGui:SetCore("SendNotification", {
-  -- Customizable
-		Title = "Silent Aim on",
-		Text = "Headshot 100%",
-		Duration = 7,-- Set the duration to how much you want this to stay
-		-- More code in part 2
-	})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ziankmodz/ziankmodz/main/aimbot.main", true))()
-            end)
-    
-    MainSection:NewButton("CHAMS", "ALL CHAMS (WHITE)", function()
-local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
-	CoreGui:SetCore("SendNotification", {
-  -- Customizable
-		Title = "Chams on",
-		Text = "All chams",
-		Duration = 7,-- Set the duration to how much you want this to stay
-		-- More code in part 2
-	})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ziankmodz/ziankmodz/main/chamsv1.main", true))()
-            end)
-    
-        MainSection:NewButton("COPY DC LINK", "Discord link", function()
-local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
-	CoreGui:SetCore("SendNotification", {
-  -- Customizable
-		Title = "Paste To Google",
-		Text = "Copied To Clipboard",
-		Duration = 7, -- Set the duration to how much you want this to stay
-		-- More code in part 2
-	})
-    setclipboard("https://discord.gg/3XGwrT8Gef")
-	toclipboard("https://discord.gg/3XGwrT8Gef")
-            end)
-        
-        MainSection:NewButton("COPY DC LINK", "Discord link", function()
-local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
-	CoreGui:SetCore("SendNotification", {
-  -- Customizable
-		Title = "Paste To Google",
-		Text = "Copied To Clipboard",
-		Duration = 7, -- Set the duration to how much you want this to stay
-		-- More code in part 2
-	})
 local Players = game.Players
 
 local RunService = game:GetService(“RunService”)
@@ -69,7 +14,7 @@ local Speed = Instance.new(“NumberValue”) –In case the player dies, save t
 
 Speed.Name = “SpeedValue”
 
-Speed.Value = 45
+Speed.Value = 42
 
 Speed.Parent = player
 
@@ -106,5 +51,3 @@ end)
 end
 
 Players.PlayerAdded:Connect(playerAdded)
-            end)
-  
