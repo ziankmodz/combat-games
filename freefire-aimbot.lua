@@ -1,3 +1,5 @@
+--I write this shit 2years ago when I was drunk
+
 function starts(String,Start)
 
    return string.sub(String,1,string.len(Start))==Start
