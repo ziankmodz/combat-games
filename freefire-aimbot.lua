@@ -1,4 +1,5 @@
 --I write this shit 2years ago when I was drunk
+--chamv1.mian also lol
 
 function starts(String,Start)
 
